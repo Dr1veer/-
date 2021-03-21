@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang='ru'>
+	
+	<head>
+		<meta charset="UTF-8">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="style.css">
+		<title>Document</title>
+	</head>
+	<body>
+		<div class="window">
+			<p class="window__headline">Задать вопрос</p>
+			<form class='ui-form' action="https://digital-spectr.com/ac/academy.php" method='post'>
+				<input class='ui' type="text" name='name' autocomplete="off" placeholder='Фамилия Имя Отчество *' pattern='^[А-Яа-яЁё\s-]+$' required>
+				<input class='ui' type="tel" name='phone' autocomplete="off" placeholder='Телефон *' pattern='^[ +0-9\s-]+$' required>
+				<input class='ui' type="text" name='email' autocomplete="off" placeholder='Email' pattern="\S+@[a-z]+.[a-z]+">
+				<button class='ui ui-button' type='submit'>Отправить запрос</button>
+			</form>
+		</div>
+		<script src='script.js'></script>
+	</body>
+</html>
