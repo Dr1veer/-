@@ -1,0 +1,110 @@
+.product {
+  max-width: 1128px;
+  position: relative;
+  top: -18px;
+  margin: 0 auto;
+}
+
+.head-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.head-button__head {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 130%;
+  color: #1E273A;
+}
+
+.product__slider {
+  max-width: 1128px;
+  overflow: hidden;
+}
+
+.product__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  width: 1320px;
+  position: relative;
+  left: 0;
+  -webkit-transition: all ease 1s;
+  transition: all ease 1s;
+}
+
+.product__block {
+  width: 264px;
+  height: 270px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  margin-right: 26px;
+}
+
+.product__block-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 160%;
+  color: #3F3F3F;
+  margin: 5px 0 0 0;
+  padding: 0;
+  height: 45px;
+}
+
+.product__price {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
+  color: #1E273A;
+  margin: 0 0 0 5px;
+  padding: 9px 0 9px 0;
+}
+
+.product__arrowRight {
+  cursor: pointer;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.product__block_red {
+  background-image: url(../img/product/brd2.png);
+  background-repeat: no-repeat;
+  background-position-x: 91%;
+  background-size: contain;
+}
+
+.product__discount {
+  background-image: url(../img/product/brd.png);
+  background-repeat: no-repeat;
+  padding-left: 10px;
+}
+
+.product__redPrice {
+  color: #E3390E;
+  display: inline-block;
+}
+
+.red-line {
+  color: red;
+  text-decoration: line-through;
+}
+
+.product__block:hover {
+  opacity: 0.8;
+}
+
+.product__arrowRight:hover {
+  opacity: 0.7;
+}
